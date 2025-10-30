@@ -4,17 +4,6 @@
 
 Scan artifacts in your workspace for open-source vulnerabilities, malware, or secrets using [TMAS (Trend Micro Artifact Scanner)](https://docs.trendmicro.com/en-us/documentation/article/trend-vision-one-__artifact-scanner-tmas-2).
 
-## About
-
-This [GitHub Action](https://github.com/features/actions) installs a specified version of the TMAS CLI tool on the GitHub Actions runner and scans a specified artifact for open-source vulnerabilities, secrets, or malware.
-
-The complete scan findings are displayed in the action logs, and a summary report will be posted as a comment on any related PRs.
-
-## Requirements
-
-- Have a [Vision One Account](https://signin.v1.trendmicro.com/). [Sign up now](https://account.trendmicro.com) if you don't already have one.
-- [A Vision One API Key](https://docs.trendmicro.com/en-us/documentation/article/trend-vision-one-__obtaining-api-key-2).
-- Determine your Vision One region (`us-east-1`, `eu-central-1`, `ap-southeast-2`, `ap-south-1`, `ap-northeast-1`, `ap-southeast-1`, `me-central-1`).
 
 ## Usage
 
